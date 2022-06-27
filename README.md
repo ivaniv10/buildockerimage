@@ -23,6 +23,7 @@
       ```bash
       cd 
       vim .bashrc
+      I
       ```
       Add these lines to the file:
       ```vim
@@ -31,11 +32,12 @@
 	    ```
       Save and close the file:
       ```vim
+      Esc
       ZZ
       ```
   3. Put a Dockerfile inside the same folder as the bash script
   4. Run the script in your terminal, providing a name for the newly created docker image:  
-    ```sh
+    ```vim
     bash builddockerimage.sh 'your imagename here'
     ```
   5. Check your repo on Dockerhub whether the new image is there
