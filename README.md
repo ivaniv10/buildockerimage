@@ -19,8 +19,8 @@
       ```bash
        sudo chmod 0755 builddockerimage.sh
       ```
-  2.Put your Dockerhub login credentials in your .bashrc (or .bash_profile) file - it's usually located on you home directory:
-	    ```bash
+  2. Put your Dockerhub login credentials in your .bashrc (or .bash_profile) file - it's usually located on you home directory:
+      ```bash
       cd 
 	    vim .bashrc
       ```
@@ -35,4 +35,4 @@
     ```bash
     bash builddockerimage.sh 'your imagename here'
     ```
-  7. Check your repo on Dockerhub whether the new image is there
+  5. Check your repo on Dockerhub whether the new image is there
