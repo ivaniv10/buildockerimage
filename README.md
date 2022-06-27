@@ -35,7 +35,7 @@
       ```
   3. Put a Dockerfile inside the same folder as the bash script
   4. Run the script in your terminal, providing a name for the newly created docker image:  
-    ```console
+    ```sh
     bash builddockerimage.sh 'your imagename here'
     ```
   5. Check your repo on Dockerhub whether the new image is there
