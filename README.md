@@ -22,15 +22,18 @@
   2. Put your Dockerhub login credentials in your .bashrc (or .bash_profile) file - it's usually located on you home directory:
       ```bash
       cd 
-	    vim .bashrc
+      vim .bashrc
       ```
-	    Add these lines to the file:
+      Add these lines to the file:
       ```vim
 		    export MY_DOCKERHUB_USER='put your Dockerhub user here'
 		    export MY_DOCKERHUB_PASS='put your Dockerhub pass here'
 	    ```
-      Save and close the file with ZZ
-  3. Put a Dockerfile inside the same folder as the bashscript
+      Save and close the file:
+      ```vim
+      ZZ
+      ```
+  3. Put a Dockerfile inside the same folder as the bash script
   4. Run the script in your terminal, providing a name for the newly created docker image:  
     ```bash
     bash builddockerimage.sh 'your imagename here'
